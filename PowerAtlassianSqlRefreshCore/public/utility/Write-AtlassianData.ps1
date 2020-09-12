@@ -4,6 +4,7 @@ function Write-AtlassianData {
         # The data to be written
         [Parameter(Mandatory, Position=0)]
         [AllowNull()]
+        [AllowEmptyCollection()]
         [object[]]
         $Data,
 
